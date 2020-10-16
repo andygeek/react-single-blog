@@ -32,8 +32,8 @@ svg {
   z-index: -1000;
 }
 .active svg {
-  fill: #0cc;
+  fill: #81b214;
 }
 .active {
-    color: #0cc;
+    color:#81b214;
 }

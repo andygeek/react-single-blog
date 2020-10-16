@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { BtnSidebar } from "../btn-sidebar/BtnSidebar";
 import { AvatarSidebar } from "../avatar/AvatarSidebar";
 import { ReactComponent as EditIcon } from "../../icons/edit.svg";
@@ -12,10 +13,18 @@ export const Sidebar = () => {
   return (
     <div className="sidebar">
       <AvatarSidebar />
-      <BtnSidebar icon={<HomeIcon />}>Blog Home</BtnSidebar>
-      <BtnSidebar icon={<EditIcon />}>Single Post</BtnSidebar>
-      <BtnSidebar icon={<GroupIcon />}>About Xtra</BtnSidebar>
-      <BtnSidebar icon={<MessageIcon />}>Contact Us</BtnSidebar>
+      <Link to="/" className="link">
+        <BtnSidebar icon={<HomeIcon />}>Blog Home</BtnSidebar>
+      </Link>
+      <Link to="/projects" className="link">
+        <BtnSidebar icon={<EditIcon />}>Projects</BtnSidebar>
+      </Link>
+      <Link to="/about" className="link">
+        <BtnSidebar icon={<GroupIcon />}>About us</BtnSidebar>
+      </Link>
+      <Link to="/contact" className="link">
+        <BtnSidebar icon={<MessageIcon />}>Contact Us</BtnSidebar>
+      </Link>
     </div>
   );
 };
