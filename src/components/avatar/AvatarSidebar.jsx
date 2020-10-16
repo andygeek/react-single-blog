@@ -1,9 +1,16 @@
 import React from "react";
+import "./AvatarSidebar.css";
 
-export const AvatarSidebar = () => {
+export const AvatarSidebar = (props) => {
   return (
-    <div>
-      <h1>Avatar</h1>
+    <div className="avatar">
+      <div className="avatar-img">
+        <img src={props.image} alt="user" />
+      </div>
+      <div className="avatar-username">
+        {props.user}
+      </div>
+
     </div>
   );
 };
