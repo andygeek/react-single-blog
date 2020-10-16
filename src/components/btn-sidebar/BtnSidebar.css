@@ -9,6 +9,8 @@
 }
 .btn-sidebar-title {
   margin-left: 20px;
+  font-size: 15px;
+  color: white;
 }
 svg {
   width: 20px;
@@ -17,7 +19,6 @@ svg {
 }
 .btn-sidebar:hover {
   background-color: white;
-  color: #0cc;
 }
 
 .btn-sidebar:hover::before {
@@ -32,4 +33,7 @@ svg {
 }
 .active svg {
   fill: #0cc;
+}
+.active {
+    color: #0cc;
 }

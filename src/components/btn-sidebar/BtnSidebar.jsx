@@ -21,7 +21,9 @@ export const BtnSidebar = (props) => {
       <span className={over ? "btn-sidebar-icon active" : "btn-sidebar-icon"}>
         {props.icon}
       </span>
-      <div className="btn-sidebar-title">{props.children}</div>
+      <div className={over ? "btn-sidebar-title active" : "btn-sidebar-title"}>{props.children}</div>
     </div>
   );
 };
+
+
