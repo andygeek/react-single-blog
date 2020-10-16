@@ -1,9 +1,11 @@
 import React from "react";
+import "./BtnSidebar.css";
 
-export const BtnSidebar = () => {
+export const BtnSidebar = (props) => {
   return (
-    <div>
-      <h1>BtnSidebar</h1>
+    <div className="btn-sidebar">
+      <span className="btn-sidebar-icon">{props.icon}</span>
+      <div className="btn-sidebar-title">{props.children}</div>
     </div>
   );
 };
