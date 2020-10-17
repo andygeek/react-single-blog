@@ -12,9 +12,9 @@
   font-size: 15px;
   color: white;
 }
-svg {
-  width: 20px;
-  height: 20px;
+.btn-icon {
+  width: 30px;
+  height: 30px;
   fill: white;
 }
 .btn-sidebar:hover {

@@ -1,0 +1,14 @@
+.container-ntw-button{
+    display: flex;
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.ntw-icon{
+    margin: auto;
+    fill: #81b214;
+    width: 25px;
+    height: 25px;
+}
