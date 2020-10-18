@@ -1,0 +1,45 @@
+.card-container{
+    width: 300px;
+    margin:20px;
+}
+.line-card {
+    border: 0;
+    border-bottom: 4px solid #81b214;
+    margin-bottom: 15px;
+    margin-top:15px;
+}
+.card-image {
+    width: 300px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.card-title {
+    color: #81b214;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.card-description{
+    color: grey;
+    font-size: 18px;
+}
+.card-row-1{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    align-items: f;
+}
+.card-row-2{
+    display: flex;
+}
+.card-category{
+    color: #81b214;
+}
+.card-date{
+    margin-left: auto;
+}
+.card-comment {
+    color: grey;
+}
+.card-author{
+    margin-left: auto;
+}

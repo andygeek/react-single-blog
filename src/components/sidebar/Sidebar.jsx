@@ -17,7 +17,7 @@ import "./Sidebar.css";
 export const Sidebar = () => {
   return (
     <div className="sidebar">
-      <AvatarSidebar image="https://picsum.photos/100/100" user="AndyGeek" />
+      <AvatarSidebar image="https://picsum.photos/100/100" user="AndyGeek" description="Developer, always learning"/>
       <Link to="/" className="link">
         <BtnSidebar icon={<HomeIcon className="btn-icon"/>}>Blog Home</BtnSidebar>
       </Link>

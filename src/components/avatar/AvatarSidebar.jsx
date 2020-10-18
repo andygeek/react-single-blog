@@ -10,6 +10,9 @@ export const AvatarSidebar = (props) => {
       <div className="avatar-username">
         {props.user}
       </div>
+      <div className="avatar-description">
+        {props.description}
+      </div>
 
     </div>
   );
